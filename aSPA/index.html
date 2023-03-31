@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/index.css" />
+
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+
+    <!-- Favicons
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/favicon-16x16.png"
+    /> -->
+
+    <title>BoxedUp SPA</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <a href="#" class="logo">
+          <h1>
+            <span class="bxd">BXD</span>
+            <span class="up">UP</span>
+            <span class="fist">&#x1F44A;</span>
+          </h1>
+        </a>
+
+        <div class="theme-switch">
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <label for="checkbox" class="label">
+               <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+               <ion-icon name="moon-outline" class="moon"></ion-icon>
+               <div class="switcher"></div>
+            </label>
+        </div>
+
+        <ul>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" id="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#stars" class="nav-link" id="nav-link">Boxing Stars</a>
+            </li>
+            <li class="nav-item">
+              <a href="#stakeholders" class="nav-link" id="nav-link">Stakeholders</a>
+            </li>
+            <li class="nav-item">
+              <a href="#sub" class="nav-link" id="nav-link">Subscribe</a>
+            </li>
+        </ul>
+
+        <!-- <div class="fa-bars" id="fa-bars">
+            <i class="fa fa-bars"></i>
+        </div> -->
+
+
+
+        <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="intro-text">
+          <h1>
+            <span class="hear"> We're Boxed-Up, </span> <br />
+            <span class="connecting"> Always Ready</span>
+          </h1>
+          <p>
+            Stream Your Boxing Matches <br />
+            We Got Some Good Ol' Fresh Wines Too !
+          </p>
+          <a class="btn red" href="#">Learn More</a>
+          <a class="btn blue" href="#">Subscribe</a>
+        </div>
+
+        <div class="i-frame">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/sUmM_PFpsvQ"
+            title="YouTube Video Player"
+            frameborder="10"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+          </iframe>
+          <div class="stand-1"></div>
+          <div class="stand-2"></div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="push">
+            <h3>Watch Out F'This</h3>
+            <p>
+              We bring live boxing matches to fans all around
+              the world
+            </p>
+      
+            <h3>Asides the Fights !</h3>
+            <p>
+              We also air documentaries specially made for the greats, lifestyle of
+              boxers, news, and more.
+            </p>
+        </div>
+    </section>
+
+    <!-- Lightbox image gallery -->
+    <section class="stars" id="stars">
+        <div class="stars-gallery">
+          <a href="assets/images/spa4.jpg" class="big">
+            <img
+              src="assets/images/spa4.jpg"
+              alt="Anthony Joshua"
+              title="AJ"/>
+          </a>
+  
+          <a href="assets/images/spa10.jpg" class="big">
+            <img
+              src="assets/images/spa10.jpg"
+              alt="Tyson Fury"
+              title="Gypsy King"/>
+          </a>
+  
+          <a href="assets/images/spa55.jpg" class="big">
+            <img
+              src="assets/images/spa55.jpg"
+              alt="Iron Mike"
+              title="Iron Mike"/>
+          </a>
+  
+          <a href="assets/images/spa2.jpg" class="big">
+            <img
+              src="assets/images/spa2.jpg"
+              alt="Mohammed Ali"
+              title="The Greatest"/>
+          </a>
+  
+          <a href="assets/images/spa11.jpg" class="big">
+            <img
+              src="assets/images/spa11.jpg"
+              alt="Deontay Wilder"
+              title="Bronze Bomber"/>
+          </a>
+  
+          <a href="assets/images/spa3.jpg" class="big">
+            <img
+              src="assets/images/spa3.jpg"
+              alt="George Foreman"
+              title="Big George Foreman"/>
+          </a>
+        </div>
+  </section>
+
+    <!-- Boxed-Up Stakeholders -->
+    <section class="people" id="stakeholders">
+        <div class="stakeholders">
+          <div class="persons">
+            <div class="person-1">
+              <img src="assets/images/spa7.jpg" alt="Jane Doe" />
+              <p class="name">Jane Doe</p>
+              <p class="role">MD</p>
+            </div>
+            <div class="person-2">
+              <img src="assets/images/spa8.jpg" alt="Joe Doe" />
+              <p class="name">John Doe JNR</p>
+              <p class="role">Head Analyst</p>
+            </div>
+            <div class="person-3">
+              <img src="assets/images/spa9.jpg" alt="John Doe Jnr" />
+              <p class="name">John Doe</p>
+              <p class="role">Founder</p>
+            </div>
+          </div>
+        </div>
+  </section>
+
+    <!-- Email subscription -->
+    <section class="sub" id="sub">
+        <h3>Subscribe To Our News-Letter For Updates</h3>
+        <form action="#">
+          <input
+            type="email"
+            name="email"
+            id="email-sub"
+            class="email-sub"
+            required
+          />
+          <input
+            type="submit"
+            value="Subscribe"
+            id="submit-btn"
+            class="submit-btn"
+          />
+        </form>
+    </section>
+
+    <!-- Social icons -->
+    <section class="social">
+        <h3>Connect with us on Social Media</h3>
+        <div class="socicons">
+          <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+          <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+          <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+        </div>
+    </section>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up">
+        <img
+        src="assets/icons/spaIcon1.png"
+        class="socicon up-arrow"
+        alt="up-arrow"/>
+     </i>
+    <footer>&copy;2023. All Rights Reserved</footer>
+
+
+    <!-- Web page script -->
+    <script src="assets/js/index.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+    </script>
+
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+
+    <!-- Simple lightbox initializer -->
+    <script>
+         var lightbox = new SimpleLightbox(".stars-gallery a");
+    </script>
+
+  </body>
+</html>
