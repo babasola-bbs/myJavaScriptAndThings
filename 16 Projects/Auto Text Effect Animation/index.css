@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+
+
+body{
+    margin: 0;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    color: deeppink;
+    font-family: 'REM', sans-serif;
+}
