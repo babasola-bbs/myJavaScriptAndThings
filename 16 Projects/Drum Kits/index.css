@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: lime;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:darkred;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    white-space: nowrap;
+}
+
+.container{
+    text-align: center;
+}
+
+.btn{
+    padding: 30px 50px;
+    border: none;
+    margin: 10px;
+    /* background-color: darkred; */
+    color: white;
+    font-size: 30px;
+    min-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* background-image: url("images/tom.png"); */
+    background-size: cover;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: lime;
+}
+
+.btn:active{
+    background-size: 105%;
+}
